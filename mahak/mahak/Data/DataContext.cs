@@ -8,6 +8,7 @@ namespace mahak.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
         public DbSet<Register> Register { get; set; }
+        public DbSet<User> User { get; set; }
 
     }
 }
