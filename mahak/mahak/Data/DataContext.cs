@@ -9,6 +9,7 @@ namespace mahak.Data
 
         public DbSet<Register> Register { get; set; }
         public DbSet<User> User { get; set; }
+        public DbSet<Roll> Roll { get; set; }
 
     }
 }
